@@ -13,7 +13,7 @@ import java.lang.Math;
 import java.util.Scanner;
 
 public class RockPaperScissors {
-    final int MAX_ROUNDS = 10, MIN_ROUNDS = 1;
+    final static int MAX_ROUNDS = 10, MIN_ROUNDS = 1;
     public static int promptNumOfRounds(Scanner input){
         System.out.println("How many rounds would you like to play? Please enter a number between 1 and 10 inclusive.");
         boolean isValid = false;
